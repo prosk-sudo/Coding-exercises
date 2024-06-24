@@ -8,7 +8,7 @@ def solution(a, b, c, d):
 
 
     elif len(numbers_set) == 4:
-        answer += min(numbers_set))
+        answer += min(numbers_set)
 
     return answer
 

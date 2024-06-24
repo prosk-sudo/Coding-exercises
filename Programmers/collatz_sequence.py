@@ -1,4 +1,4 @@
-xdef solution(n):
+def solution(n):
     answer = []
     answer.append(n)
 
