@@ -1,7 +1,7 @@
 # Coding-exercises
 
-I upload my solutions for coding exercises from various websites,
-including Codeforces, Codewars, Programmers.
+I upload my solutions for coding exercises from various websites, along with
+files from the books I use to learn programming languages.
 
 The solutions I post are generally not the optimised versions; they are the
 version that were accepted, although I may have made some modifications to
