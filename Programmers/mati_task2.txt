@@ -1,0 +1,19 @@
+You are given a string `my_string` and a 2D integer array `queries`
+as parameters. Each element in `queries` is in the form `[s,e]`, meaning
+you should reverse the substring of `my_string` from index `s` to index `e`.
+
+Write a function `solution` that processes the commands in `queries` in order
+and returns the resulting string after all operations.
+
+Constraints:
+    my_string is only composed of lowercase English letters.
+    1 <= len(my_string) <= 1,000
+    0 <= s <= e < len(my_string)
+    1 <= len(queries) <= 1,000
+
+Input 1:
+    my_string = "rermgorpsam"
+    queries = [[2, 3], [0, 7], [5, 9], [6, 10]]
+
+Output 1:
+    "programmers"

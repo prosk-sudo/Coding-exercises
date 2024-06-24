@@ -1,0 +1,21 @@
+Given two integers l and r, complete the 'solution' function that returns
+a list of all integers, composed of only "0" and "5", in ascending order.
+
+If there is no satisfactory integer, return a list containing -1
+
+Constraint:
+1 <= l <= r <= 10^6
+
+Input 1:
+l = 5
+r = 555
+
+Output 1:
+[5, 50, 55, 500, 505, 550, 555]
+
+Input 2:
+l = 10
+r = 20
+
+Output 2:
+[-1]
