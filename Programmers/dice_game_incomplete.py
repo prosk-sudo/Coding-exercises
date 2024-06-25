@@ -1,16 +1,8 @@
+import time
+start_time = time.time()
+
 def solution(a, b, c, d):
-    answer = 0
-    numbers_list = [a, b, c, d]
-    numbers_set = {a, b, c, d}
-
-    if len(numbers_set) == 1:
-        answer += 1111*a
-
-
-    elif len(numbers_set) == 4:
-        answer += min(numbers_set)
-
-    return answer
+    pass
 
 def main():
     a_1, b_1, c_1, d_1 = 2, 2, 2, 2
@@ -24,6 +16,8 @@ def main():
     print(solution(a_3, b_3, c_3, d_3))
     print(solution(a_4, b_4, c_4, d_4))
     print(solution(a_5, b_5, c_5, d_5))
+
+    print("--- %s seconds ---" % (time.time() - start_time))
 
 if __name__ == "__main__":
     main()
