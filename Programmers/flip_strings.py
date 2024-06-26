@@ -1,13 +1,12 @@
-def solution(my_string, queries):
-    for start, end in queries:
-        my_string = my_string[:start] + my_string[start:end+1][::-1] + my_string[end+1:]
-    return my_string
+def solution(my_string, s, e):
+    return my_string[:s] + my_string[s:e+1][::-1] + my_string[e+1:]
 
 def main():
-    my_string_one = "rermgorpsam"
-    queries_one = [[2, 3], [0, 7], [5, 9], [6, 10]]
+    my_string_one, s_one, e_one = "Progra21Sremm3", 6, 12
+    my_string_two, s_two, e_two = "Stanley1yelnatS", 4, 10
 
-    print(solution(my_string_one, queries_one))     # "programmers"
+    print(solution(my_string_one, s_one, e_one))
+    print(solution(my_string_two, s_two, e_two))
 
 if __name__ == "__main__":
     main()
