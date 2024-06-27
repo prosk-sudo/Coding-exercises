@@ -8,7 +8,6 @@ def solution(arr):
     #        return arr[min_idx:max_idx+1]
     #    except ValueError:
     #        return [-1]
-    #    min_idx, max_idx = -1, -1
 
     min_idx, max_idx = -1, -1
 
