@@ -1,6 +1,5 @@
-def solution(X, Y):
-    answer = ''
-    return answer
+def solution(X, Y):    
+    return -1
 
 def main():
     X1, Y1 = "100", "2345"
