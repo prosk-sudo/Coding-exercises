@@ -1,2 +1,6 @@
+*               # ignore everything
+!*/             # unignore all directories
+!*.*            # unignore all files with extension
+
 *.out
 *.pdf
