@@ -2,5 +2,8 @@
 !*/             # unignore all directories
 !*.*            # unignore all files with extension
 
+/CodeUp/*
+!/CodeUp/*.*
+
 *.out
 *.pdf
