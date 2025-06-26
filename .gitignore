@@ -5,5 +5,8 @@
 /CodeUp/*
 !/CodeUp/*.*
 
+*.in
 *.out
 *.pdf
+
+venv/
